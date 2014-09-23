@@ -4,7 +4,7 @@ Hello, and Welcome to my GitHub.
   new to GitHub and am testing it out all by myself--
   
   I am mostly using this resource as a way to provide code examples
-  from my college career, for any future reference I may need. I am
+  from my college career for any future reference I may need. I am
   also planning on using GitHub to help others with what I have to offer, 
   as well as learn from the community.
   

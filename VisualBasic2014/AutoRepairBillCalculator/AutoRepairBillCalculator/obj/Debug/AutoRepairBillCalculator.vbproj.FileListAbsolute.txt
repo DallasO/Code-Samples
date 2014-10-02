@@ -1,0 +1,11 @@
+C:\Users\dopel_000.ARIEL-PC\AppData\Local\Temporary Projects\AutoRepairBillCalculator\bin\Debug\AutoRepairBillCalculator.exe.config
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\bin\Debug\AutoRepairBillCalculator.exe.config
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\obj\Debug\AutoRepairBillCalculator.AutoRepairBillCalculator.resources
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\obj\Debug\AutoRepairBillCalculator.Resources.resources
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\obj\Debug\AutoRepairBillCalculator.vbproj.GenerateResource.Cache
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\bin\Debug\AutoRepairBillCalculator.exe
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\bin\Debug\AutoRepairBillCalculator.pdb
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\bin\Debug\AutoRepairBillCalculator.xml
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\obj\Debug\AutoRepairBillCalculator.exe
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\obj\Debug\AutoRepairBillCalculator.xml
+C:\Users\dopel_000.ARIEL-PC\OneDrive\School\Fall2014\IS314\Assignments\AutoRepairBillCalculator\AutoRepairBillCalculator\obj\Debug\AutoRepairBillCalculator.pdb

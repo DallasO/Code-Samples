@@ -8,6 +8,7 @@
 *
 * Comments: 09/23/14 - realized doesn't display correctly,
 *             will update soon.
+*           10/04/14 - Updated to correct invoice display
 *
 **************************************/
 
@@ -83,7 +84,7 @@ public class MyJavaGUI implements ActionListener
     
     /*Build the Panels of the GUI */
     
-       // Panel with name and bags label and texxt field
+       // Panel with name and bags label and text field
     
     public JPanel buildNameAndBagsPanel( )
     {
@@ -167,6 +168,7 @@ public class MyJavaGUI implements ActionListener
         txaInvoiceArea.setEditable( false );
         txaInvoiceArea.setPreferredSize( new Dimension( 500, 300) );
         txaInvoiceArea.setFont( new Font( "Courier", Font.PLAIN, 12 ) );
+        txaInvoiceArea.setTabSize(4);
         
         return txaInvoiceArea;
     }
@@ -187,32 +189,36 @@ public class MyJavaGUI implements ActionListener
     
     public String createPrintOut( )
     {
-        return "                 Customer Name:    " + 
-               currentOrder.getCustomerName() + 
-               "\n  Number of Bags Ordered:    " +
-               currentOrder.getBagsOrdered() + 
-               "\n                    Purchase Price:                            $ " + 
-               currentOrder.returnSubtotal() +
-               "\n\n                          Boxes Used:" +
-               "\n                                              Large:   " + 
-               currentOrder.getNumLargeBoxes( ) +"   Cost: $   " + 
-               currentOrder.totalLargeCost( ) +
-               "\n                                          Medium:   " + 
-               currentOrder.getNumMediumBoxes( ) + "   Cost: $   " +
-               currentOrder.totalMediumCost( ) +
-               " \n                                              Small:   " + 
-               currentOrder.getNumSmallBoxes() +"   Cost: $   " + 
-               currentOrder.totalSmallCost( ) + "\n\n\n" + 
-               "                            Total Cost:                             $ " 
-               + currentOrder.returnTotal( ) +
-               "\n\n                      Date of Order:   " + 
-               currentOrder.getDate( currentOrder.getDateOrdered( ) ) +
-               "\n    Expected Date of Arrival:   " + 
-               currentOrder.getDate( currentOrder.getDateExpected( ) ) +
-               "\n\n    Shipping Address:      " +
-               currentOrder.getShippingAddress() + 
-               "\n                                            " +
-               currentOrder.getAddress();
+        int lrgBoxes = currentOrder.getNumLargeBoxes( );
+        int medBoxes = currentOrder.getNumMediumBoxes( );
+        int smlBoxes = currentOrder.getNumSmallBoxes();
+        
+        return "         Customer Name:\t" + currentOrder.getCustomerName() + 
+               "\nNumber of Bags Ordered:\t" + currentOrder.getBagsOrdered() + 
+               "\n        Purchase Price:\t$ " + currentOrder.returnSubtotal() +
+               "\n\nBoxes Used:" +
+               "\n     Large:   " + lrgBoxes + getBackSpace(lrgBoxes) + 
+               "                Cost: $   " + currentOrder.totalLargeCost( ) +
+               "\n    Medium:   " + medBoxes + getBackSpace(medBoxes) + 
+               "                Cost: $   " + currentOrder.totalMediumCost( ) +
+               "\n     Small:   " + smlBoxes + getBackSpace(smlBoxes) + 
+               "                Cost: $   " + currentOrder.totalSmallCost( ) +
+               "\n\n" + "Total Cost:\t$" + currentOrder.returnTotal( ) +
+               "\n\n\n           Date of Order:\t" + currentOrder.getDate( currentOrder.getDateOrdered( ) ) +
+               "\nExpected Date of Arrival:\t" + currentOrder.getDate( currentOrder.getDateExpected( ) ) +
+               "\n\nShipping Address:\t" + currentOrder.getShippingAddress() + 
+               "\n                    " + currentOrder.getAddress();
+    }
+    
+    public String getBackSpace(int intBoxes)
+    {
+        String strBoxes = Integer.toString(intBoxes);
+        String backspaces = ""; 
+        
+        for (int i = 0; i < strBoxes.length(); i++){
+            backspaces = backspaces + "\b";
+        }
+        return backspaces;
     }
     
        // Action performed method

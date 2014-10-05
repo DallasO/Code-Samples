@@ -219,7 +219,7 @@ public class MyJava
    {
       int numBagsLeft = bagsOrdered;
 
-      while( numBagsLeft >= 0 )
+      while( numBagsLeft > 0 )
       {
          if( numBagsLeft >= LARGE_BOX )
          {
@@ -227,7 +227,7 @@ public class MyJava
             numBagsLeft -= LARGE_BOX;
          }
 
-         else if( numBagsLeft >= SMALL_BOX )
+         else if( numBagsLeft > SMALL_BOX )
          {
             numMediumBoxes++;
             numBagsLeft -= MEDIUM_BOX;

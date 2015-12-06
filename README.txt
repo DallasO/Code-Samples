@@ -8,7 +8,7 @@ Hello, and Welcome to my GitHub.
   also planning on using GitHub to help others with what I have to offer, 
   as well as learn from the community.
   
-More about me:  I am an Information Systems major, with an emphasis in
+More about me:  I am an Information Systems graduate, with an emphasis in
                 Systems Development, from the University of
                 Wisconsin-Eau Claire. I graduated in December 2014
                 And currently live in Reno, NV.

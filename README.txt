@@ -11,9 +11,15 @@ Hello, and Welcome to my GitHub.
 More about me:  I am an Information Systems graduate, with an emphasis in
                 Systems Development, from the University of
                 Wisconsin-Eau Claire. I graduated in December 2014
-                And currently live in Reno, NV.
+                And currently live in Bothell, WA.
                 
-                My most recent position was with Apex Performance Solutions
+                My current position is working as a Freelance Web Developer
+                in Bothell, WA. I am working with 1 other developer who owns 
+                his own company and has had an increase in business so brought
+                me on to help decrease his load. The clients we work with are
+                throughout the US and also Australia.
+                
+                My previous position was with Apex Performance Solutions
                 in Reno, NV working as a contractor with Microsoft. Here I 
                 Used SQL to generate reports in Excel and created multiple 
                 webpages with ASP, HTML, CSS, and D3.js. These webpages 

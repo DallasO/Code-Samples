@@ -1,0 +1,422 @@
+/* *********************************************** **
+** CSS for Project                                 **
+** Author: Dallas Opelt                            **
+** *********************************************** */
+html {
+   font-size: 14px;
+   font-family: 'segoe ui', calibri, Arial, Helvetica, Verdana;
+}
+   
+head {
+   font-family: 'segoe ui', calibri, Arial, Helvetica, Verdana;
+}
+   
+body {
+   font-family: 'segoe ui', calibri, Arial, Helvetica, Verdana;
+}
+   
+table {
+   padding: 20px;
+   table-layout: fixed;
+}
+   
+table th{
+   text-align: center;
+}
+   
+table tfoot td{
+   border:0px;
+}
+   
+.VerticalTextLeft {
+   float: right;
+   padding: 2px;
+   text-align: right;
+   vertical-align: middle;
+   white-space: nowrap;
+   background-color: white;
+   -ms-transform: rotate(-90deg);
+   -webkit-transform: rotate(-90deg);
+   transform: rotate(-90deg);
+   filter: progid:DXImageTransform.SoftMicro.BasicImage(rotation=1);
+}
+   
+.VerticalTextRight {
+   float: left;
+   padding: 2px;
+   text-align: right;
+   vertical-align: middle;
+   white-space: nowrap;
+   background-color: white;
+   -ms-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+   transform: rotate(90deg);
+   filter: progid:DXImageTransform.SoftMicro.BasicImage(rotation=1);
+}
+         
+.BlueFill {
+   background-color: #00D4FF;
+}
+        
+.BlueBorder {
+   border-color: #00D4FF;
+}
+         
+.dataTitle {
+   font-size: 16px;
+   font-weight: bold;
+}
+      
+.Numerator {
+   border-bottom: 1px solid black;
+   padding-bottom: 0px;
+   vertical-align: bottom;
+}
+    
+.Denominator {
+   border-top: 1px solid black;
+   padding-top: 0px;
+   vertical-align: top;
+}
+      
+.Bold {
+   font-weight: 700 !important;
+}
+
+
+td {
+   border: 1px solid;
+   width: 20%;
+   text-align: center;
+}
+
+.MixProgressionFooter {
+   vertical-align: top;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.MixProgressionData {
+   width: 20%;
+   height: 20%;
+   vertical-align: middle;
+   text-align: center;
+   padding-left: 5px;
+   padding-right: 5px;
+   position: relative;
+   overflow: hidden;
+}
+      
+#Os2TOs2PT.MixProgressionChange,
+#Os2POs2PT.MixProgressionChange {
+   text-align: left;
+   font-weight: 500;
+   margin-left: auto;
+   margin-right: auto;
+}
+      
+.GrnTextBorder {
+   color: #00C900;
+   font-weight: 700;
+}
+      
+.dataTitle {
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+}
+      
+.IncentivePotential {
+   font-size: 16px;
+   font-weight: bold;
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+}
+      
+#TopBanner.Container {
+   height: 20%;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+      
+#FilterBar.Container {
+   height: 10%;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+      
+#MainContainer.Container {
+   height: 100%;
+   width: 100%;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   float: center;
+   display: -webkit-flexbox;
+   display: -ms-flexbox;
+   display: flexbox;
+   -ms-flex-direction: column;
+   -ms-flex-pack: start;
+   overflow: hidden;
+   overflow-y: hidden;
+}
+      
+#TopContainer.Container {
+   display: -webkit-flexbox;
+   display: -ms-flexbox;
+   display: flexbox;
+   -ms-flex-direction: row;
+   -ms-flex-align: center;
+   -ms-flex-pack: justify;
+   float: left;
+   height: 70%;
+}
+      
+#TopContainerTitle {
+   width: 100%;
+   text-align: center;
+   overflow: auto;
+   font-size: 16px;
+   font-weight: 600;
+   border-bottom: 1px dashed black;
+}
+      
+#MixProgressionContainer {
+   float: left;
+   width: 60%;
+   height: auto;
+   min-width: 25%;
+   text-align: center;
+   position: relative;
+}
+      
+#IncentiveContainer {
+   overflow: hidden;
+   width: 40%;
+   max-width: 50%;
+   min-width: 25%;
+   text-align: left;
+   display: block;
+   clear: both;
+   padding-right: 5%;
+   position: relative;
+}
+
+#MixProgression {
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   overflow: hidden;
+}
+
+#MP13 {
+   Background-color: #00C900;
+}
+
+#MP12, #MP23 {
+   Background-color: #FFFF00;
+}
+
+#MP22 {
+   Background-color: #FFA300;
+}
+
+#MP11 {
+   Background-color: #FF0000;
+}
+
+.HiddenBorder {
+   border: 0px;
+}
+    
+#HorizArrow {
+   height: 30px;
+   margin: 0px;
+   padding: auto;
+   visibility: visible;
+   align-items: center;
+   vertical-align: middle;
+}
+      
+#VertArrow {
+   width: 30px;
+   visibility: visible;
+   margin: 0px;
+   padding: auto;
+   align-items: center;
+   vertical-align: middle;
+}
+      
+#HorizArrow svg,
+#VertArrow svg {
+   fill: #00C900;
+   stroke: #00C900;
+   stroke-width: 4px;
+   marker-end: url(#markerArrow);
+}
+      
+#TopFilters {
+   display: -ms-flexbox;
+   -ms-flex-direction: row;
+   /*display: table-row;*/
+}
+     
+#Loading {
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+td {
+   border: 1px solid;
+   width: 20%;
+   text-align: center;
+}
+      
+.dataTitle {
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+}
+      
+#MainContainer.Container {
+   height: 100%;
+   width: 100%;
+   margin-left: 0px;
+   margin-right: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   float: center;
+   display: -webkit-flexbox;
+   display: -ms-flexbox;
+   display: flexbox;
+   -ms-flex-direction: column;
+   -ms-flex-pack: start;
+   overflow: auto;
+}
+      
+#BottomContainer{
+   display: -webkit-flexbox;
+   display: -ms-flexbox;
+   display: flexbox;
+   -ms-flex-direction: row;
+   -ms-flex-align: center;
+   -ms-flex-pack: justify;
+   overflow: auto;
+   float: left;
+}
+      
+#BottomContainerTitle {
+   text-align: center;
+   overflow: auto;
+   font-size: 16px;
+   font-weight: 600;
+   border-bottom: 1px dashed black;
+}
+      
+#TrendGraphContainer {
+   overflow: auto;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   width: 50%;
+   height: 500;
+   max-width: 50%;
+   min-width: 25%;
+   text-align: center;
+   left: 0;
+   right: 0;
+   clear: both;
+}
+      
+#AccrualPotentialContainer {
+   overflow: auto;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   width: 50%;
+   height: 500;
+   max-width: 50%;
+   min-width: 25%;
+   text-align: center;
+   left: 0;
+   right: 0;
+   clear: both;
+}
+      
+#AccrualPotentialTable.td {
+   text-align: left;
+   border-collapse: collapse;
+}
+
+.bar.positive rect {
+   fill: #7CBC03;
+}
+      
+.bar.negative rect {
+   fill: crimson;
+}
+
+.bar line.connector {
+   stroke: grey;
+   stroke-dasharray: 3;
+}
+
+.bar text.above {
+   fill: black;
+   font-size: 12px;
+   font-family: "segoe ui", calibri, Arial, Helvetica, Verdana;
+   text-anchor: middle;
+}
+
+.bar text.below {
+   fill: white;
+   font-size: 12px;
+   font-family: "segoe ui", calibri, Arial, Helvetica, Verdana;
+   text-anchor: middle;
+}
+   
+.barBg {
+   fill: #C5C5C5;
+   opacity: 0.4;
+}
+
+.axis text {
+   font-size: 12px;
+   font-family: "segoe ui", calibri, Arial, Helvetica, Verdana;
+}
+
+.axis path,
+.axis line {
+   fill: none;
+   stroke: #000;
+   shape-rendering: crispEdges;
+}
+      
+#AccrualToDateTable.td {
+   text-align: left;
+   border-collapse: collapse;
+}
+      
+.PotDesc {
+   border: 0px;
+   text-align: left;
+   font-style: italic;
+   font-size: 12px;
+}
+     
+.Half {
+   max-width: 50%;
+   min-width: 10%;
+}
+  
+.Half {
+   width: 100%;
+   max-width: 100%;
+   min-width: 10%;
+}

@@ -1,0 +1,72 @@
+<!--This calculator was writen by me for LotionCrafter.com for their calculators page.
+    The copy and descriptions were added by the owner of the site. -->
+
+
+<script type="text/javascript" src="/dilution_calculator.js" language="Javascript">
+//<![CDATA[
+
+//]]>
+</script>
+
+
+<div class="calculator">
+  <span style="font-weight: bold;">Dilution Calculator</span>
+		<blocktext>This will calculate the volume of a Stock concentrate (example, Lactic Acid 90%) needed to add to a formula or another product (like a lotion base or water) to achieve another specific concentration (example, a 20% Lactic Acid solution).  <span style="font-weight: bold;">To use this calculator, you need to know how much you want to make, the concentration you want to have in the final product, and the concentration of the Stock solution you will be using.</span>  Enter the total amount you want to make, the concentration you want in the end product, and the concentration of the Stock solution, then click 'Calculate', and the calculator will tell you the amount of 'base' to use (water, lotion, formula etc.) and how much of the Stock solution to add to it to make the amount of product you want in the desired concentration.</blocktext></p>
+	<p>The calculator doesn't need to know if you are using teaspoons, tablespoons, ounces, milliliters, grams or kilos; it is simply performing a mathematical calculation. If you are working in ounces, then the results are to be interpreted in ounces, if working in grams or milliliters, then what is displayed will be those.  Do not mix and match!</p>
+	<blockquote>
+		<form name="activesPercent">
+			<table>
+				<tbody>
+					<tr>
+						<td>Enter the total amount you want to make</td>
+						<td>
+							<input type="text" value="" name="amountToMake" /></td>
+						<td>(oz, gram, ml, etc.)</td>
+					</tr>
+					<tr>
+						<td>The desired concentration you want</td>
+						<td>
+							<input type="text" value="" name="conDesired" /></td>
+						<td>%</td>
+					</tr>
+					<tr>
+						<td>The concentration of the Stock solution</td>
+						<td>
+							<input type="text" value="" name="conStock" /></td>
+						<td>%</td>
+						<td><br />
+							</td>
+					</tr>
+					<tr>
+						<td style="text-align:center;" colspan="3">
+							<input type="button" value="Calculate" onclick="diluteSolution(this.form)" />
+            </td>
+					</tr>
+					<tr style="text-align:right;">
+						<td>Amount of "base" to use</td>
+						<td>
+							<input type="text" readonly="readonly" value="" name="neededBase" />
+            </td>
+						<td>(oz, gram, ml, etc.)</td>
+					</tr>
+					<tr style="text-align:right;">
+						<td>Amount of Stock solution to use</td>
+						<td>
+							<input type="text" readonly="readonly" value="" name="neededStock" />
+            </td>
+						<td>(oz, gram, ml, etc.)</td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr style="text-align:right;">
+						<td>to make</td>
+						<td>
+							<input type="text" readonly="readonly" value="" name="desiredAmount" />
+            </td>
+						<td>(oz, gram, ml, etc.)</td>
+						<td>&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+</blockquote>
+</div>

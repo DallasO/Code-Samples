@@ -1,0 +1,92 @@
+<!-- I added this converter to the LotionCrafter.com calculators page.
+      The site owner added some copy and changed descriptions -->
+<!-- I Copied this from http://fantes.net/conversion-charts.html#liquidconv
+      and customized it a little to match the style of the website -->
+
+
+
+<script type="text/javascript" src="/volume.js" language="Javascript">
+//<![CDATA[
+
+//]]>
+</script>
+
+
+<div class="calculator">
+  <span style="font-weight: bold;">Liquid Volume Converter</span>
+	<p>
+		<blocktext>We always recommend cosmetic formulating be done by weight, not volume.  But when you are working with volumetric measurements, use this calculator to convert instantly between gallons, liters, pints, cups, teaspoons, and even drops, from imperial (USA) volume and metric volume units.  Note,&nbsp; for ease of use we have rounded off:  30ml = 1 ounce and 20 drops = 1ml (the metric equivalent, rather than the pharmaceutical standard).  Since dropper openings will vary and droplet sizes are also affected by the surface tension of the fluid itself, numbers of drops are, at best, an estimate.</blocktext>
+  </p>
+  <blockquote>
+      Choose the measure to convert from and the one to convert to,
+      then enter the amount to convert, and click on Convert.
+		<form name="conv">
+			<table style="text-align:center;" class="products">
+				<tbody>
+					<tr>
+						<td>
+							<table style="margin:auto;" class="products">
+								<tbody>
+									<tr>
+										<td>Convert&nbsp; From</td>
+									</tr>
+								</tbody>
+							</table></td>
+						<td>
+							<table style="margin:auto;" class="products">
+								<tbody>
+									<tr>
+										<td>Convert&nbsp; To</td>
+									</tr>
+								</tbody>
+							</table></td>
+					</tr>
+					<tr>
+						<td>
+							<select size="1" name="convertFrom">
+								<option>cc</option>
+								<option>ml</option>
+								<option selected="true">oz</option>
+								<option>tsp</option>
+								<option>tbsp</option>
+								<option>cup</option>
+								<option>pint</option>
+								<option>quart</option>
+								<option>liter</option>
+								<option>gallon</option>
+								<option>drop</option>
+							</select></td>
+						<td>
+							<select size="1" name="convertTo">
+								<option>cc</option>
+								<option selected="true">ml</option>
+								<option>oz</option>
+								<option>tsp</option>
+								<option>tbsp</option>
+								<option>cup</option>
+								<option>pint</option>
+								<option>quart</option>
+								<option>liter</option>
+								<option>gallon</option>
+								<option>drop</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td>Liquid Volume<br />To Convert</td>
+						<td>Converted<br />Volume</td>
+					</tr>
+					<tr>
+						<td><span style="font-weight: bold;">
+								<input value="1" maxlength="10" size="11" name="unitsToConvert" /></span></td>
+						<td>
+							<input maxlength="10" size="16" name="convertedUnits" /></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="button" onclick="convertLiquidVolume()" language="Javascript" value="Convert" name="btnConvert" /></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+  </blockquote>
+</div>
